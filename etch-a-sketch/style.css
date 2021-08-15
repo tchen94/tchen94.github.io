@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(166, 190, 182);
+}
+#container {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#container div {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+#container h1 {
+    font-style: italic;
+    color:darkcyan;
+    font-family: "Copperplate", monospace;
+    font-size: 25px;
+    margin-left: 110px;
+    margin-bottom: 40px; 
+   
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 70%;
+    right: 0;
+    margin: auto;
+}
+
+li {
+    float: top;
+    margin-bottom: 30px;
+}
+
+button {
+    font-family: monospace;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    color: darkcyan;
+    background-color: lightgray;
+    border-radius: 10%;
+    box-shadow: darkgray;
+    font-weight: bold;
+}
+
+#color-button {
+    color: darkcyan;
+    background-size: 100px ;
+    background-image: url("https://cdn.discordapp.com/attachments/669382219214880798/875491151069708288/image0.jpg");
+}
