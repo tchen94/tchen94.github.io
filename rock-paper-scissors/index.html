@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Let's Play - Rock Paper Scissors</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="game.js" defer></script>
-    </head>
-    <body>
-        <h1>Rock Paper Scissors!</h1>
-        <h2>First to 5 wins - Good luck!</h2>
-        <h3>
-            Player: <span id="player-score">0</span> || CPU: <span id="cpu-score">0</span>
-        </h3>
-        <div id="result"></div>
-        <ul>
-            <button class="options">Rock</button>
-            <button class="options">Paper</button>
-            <button class="options">Scissors</button>
-        </ul>
-        
-    </body>
-</html>
 
+<head>
+    <meta charset="utf-8">
+    <title>Let's Play - Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+</head>
+
+<body>
+    <h1>
+        <ul id="players">
+            <li id="player">PLAYER</li>
+            <li id="cpu">CPU</li></li>
+        </ul>
+        <ul id="scores">
+            <li id="pscore"><span id="player-score">0</span></li>
+            <li id="cscore"><span id="cpu-score">0</span></li>
+        </ul>
+    </h1>
+    <img src="images/rpslogo.png" alt="Rock Paper Scissors Logo"></img>
+        <h2>First to 5 wins - Good luck!</h2>
+        <div id="result"></div>
+        <ul id="selections">
+            <button class="options" id="rock">Rock</button>
+            <button class="options" id="paper">Paper</button>
+            <button class="options" id="scissors">Scissors</button>
+        </ul>
+</body>
+
+</html>
