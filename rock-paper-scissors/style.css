@@ -1,0 +1,16 @@
+.options {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    margin-right: 40px;
+}
+body {
+    border-style: solid;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
