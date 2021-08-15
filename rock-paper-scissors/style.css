@@ -1,16 +1,120 @@
+img {
+    margin: auto;
+    margin-top: -200px;
+}
+
 .options {
     display: inline-block;
     margin: 0px auto;
     text-align: center;
 }
-ul {
+#players {
+    list-style-type: none;
+}
+
+#players li {
+    display: inline;
+    margin: auto;
+    font-family: system-ui;
+}
+
+#players #player {
+    margin:auto;
+    margin-right: 650px;
+    color: green;
+}
+
+#players #cpu {
+    color: red;
+}
+
+#scores {
+    list-style-type: none;
+}
+
+#scores li {
+    display: inline;
+    font-family: system-ui;
+}
+
+#scores #pscore {
+    margin-right: 795px;
+    color: green;
+}
+
+#scores #cscore {
+    color: red;
+}
+
+#selections {
     text-align: center;
+    margin-top: 50px;
     margin-right: 40px;
 }
+
 body {
-    border-style: solid;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-}  
+    background-color: lavender;
+    margin: auto;
+}
+
+h2, h3 {
+    font-family: system-ui;
+}
+
+#result {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+#rock {
+    background-image: url(images/rock.png);
+    background-size: 100%;
+    background-color: transparent;
+    color: transparent;
+    border: solid;
+    width: 100px;
+    border-width: 0px;
+    height: 117px;
+    margin-right: 50px;
+}
+
+#rock:active {
+    transform: translate(4px, 4px);
+}
+
+#paper {
+    background-image: url(images/paper.png);
+    background-size: cover;
+    background-color: transparent;
+    color: transparent;
+    border: solid;
+    width: 135px;
+    border-width: 0px;
+    height: 120px;
+    margin-right: 80px;
+    margin-left: 50px;
+}
+
+#paper:active {
+    transform: translate(4px, 4px);
+}
+
+#scissors {
+    background-image: url(images/scissors.png);
+    background-size: cover;
+    background-color: transparent;
+    color: transparent;
+    border: solid;
+    width: 149px;
+    border-width: 0px;
+    height: 105px;
+}
+
+#scissors:active {
+    transform: translate(4px, 4px);
+}
