@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: slategray;
+}
+
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color:rgb(101, 60, 117);
+    margin-top: 50px;
+}
+
+.calculator {
+    background-color: darkgray;
+    box-shadow: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.calc-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border: none;
+    background-color: gray;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.operator {
+    background-color: rgba(231, 120, 120, 0.87);
+}
+
+button {
+    height: 45px;
+    background-color: rgb(40, 167, 167);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    padding: 20px;
+}
+
+.clrbutton {
+    background-color: rgb(231, 120, 120);
+}
+
+#equalbutton {
+    grid-row-start: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: rgb(124, 209, 167);
+    font-size: 2rem;
+}
+.credentials {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.credentials a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    padding-left: 5px;
+    text-align: center;
+}
